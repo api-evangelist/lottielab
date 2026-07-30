@@ -1,8 +1,30 @@
 aid: lottielab
 name: Lottielab
-description: Lottielab is a company surfaced as a portfolio company of point-nine and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Lottielab is a browser-based motion design tool for creating, editing,
+  collaborating on, and shipping Lottie animations to apps and websites. It
+  pairs a Figma-like editor (design and animate modes, timeline, keyframes,
+  easing, motion paths) with Interactive Lotties powered by a state-machine
+  engine, and a hand-off surface for developers: a lightweight open-source
+  player (the @lottielab/lottie-player web component and React component,
+  based on lottie-web), Livelink CDN hosting with versioning and optimisation,
+  and code-export guides for Web (vanilla JS, React, Angular, Vue, Webflow,
+  Framer, WordPress) and Mobile (iOS, Android, React Native). Lottielab does
+  not expose a REST API; its developer surface is the client-side player SDK
+  and CDN embed rather than server-side endpoints.
 url: https://raw.githubusercontent.com/api-evangelist/lottielab/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://avatars.githubusercontent.com/u/95141512?v=4
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +33,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Animation
+- Motion Design
+- Lottie
+- Design Tools
+- Developer Tools
+- Web Components
+- SDK
+- CDN
+- Creative
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,37 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.lottielab.io
+  url: https://www.lottielab.com
+- type: Documentation
+  url: https://docs.lottielab.com
+- type: GettingStarted
+  url: https://docs.lottielab.com/getting-started/welcome-to-lottielab.md
+- type: Pricing
+  url: https://www.lottielab.com/pricing
+- type: SignUp
+  url: https://www.lottielab.com/sign-up
+- type: Login
+  url: https://www.lottielab.com/login
+- type: TermsOfService
+  url: https://www.lottielab.com/terms
+- type: PrivacyPolicy
+  url: https://www.lottielab.com/privacy
+- type: GitHubOrganization
+  url: https://github.com/lottielab
+- type: Packages
+  url: packages/lottielab-packages.yml
+- type: SDKs
+  url: packages/lottielab-packages.yml
+- type: Components
+  url: components/lottielab-components.yml
+- type: ChangeLog
+  url: changelog/lottielab-changelog.yml
+- type: LLMsTxt
+  url: llms/lottielab-llms.txt
+- type: DomainSecurity
+  url: security/lottielab-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
