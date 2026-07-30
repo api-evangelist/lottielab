@@ -1,0 +1,19 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.npmjs.com/package/@lottielab/lottie-player
+packages:
+  - language: javascript
+    registry: npm
+    name: "@lottielab/lottie-player"
+    version: 1.1.3
+    url: https://www.npmjs.com/package/@lottielab/lottie-player
+    repository: https://github.com/lottielab/lottie-player
+    install: npm install --save @lottielab/lottie-player
+    license: MIT
+    official: true
+    description: >-
+      Versatile Lottie animation player based on lottie-web. Supports HTML (via
+      Web Components) and React, including Lottielab Interactive Lotties backed
+      by a state-machine engine. Ships as a <lottie-player> web component and a
+      separate React component; also loadable from the Lottielab CDN.
+    cdn: https://cdn.lottielab.com/s/lottie-player@1.x/player-web.min.js

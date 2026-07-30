@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: probed
+source: live probes of /.well-known/* on Lottielab hosts
+note: >-
+  Lottielab publishes no /.well-known discovery documents. Recorded as negative
+  evidence; no WellKnown/SecurityTxt pointer is wired since nothing was present.
+hosts:
+  - host: https://lottielab.com
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 404}
+      - {path: /.well-known/oauth-authorization-server, status: 404}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /.well-known/ai-plugin.json, status: 404}
+  - host: https://www.lottielab.com
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 404}
+      - {path: /.well-known/oauth-authorization-server, status: 404}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /.well-known/ai-plugin.json, status: 404}
+  - host: https://cdn.lottielab.com
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 404}

@@ -1,0 +1,41 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/lottielab/lottie-player
+description: >-
+  Lottielab ships a client-side player for rendering Lottie animations
+  (including Interactive Lotties) exported from the editor. It is delivered as a
+  framework-agnostic Web Component and a dedicated React component, loadable via
+  npm or directly from the Lottielab CDN. Distinct from a server-side SDK: these
+  are embeddable UI/runtime components.
+families:
+  - name: Lottie Player
+    kind: web-component
+    element: <lottie-player>
+    package: "@lottielab/lottie-player"
+    entry: "@lottielab/lottie-player/web"
+    loaders:
+      - type: cdn
+        url: https://cdn.lottielab.com/s/lottie-player@1.x/player-web.min.js
+      - type: npm-import
+        code: "import '@lottielab/lottie-player/web';"
+    attributes: [src, autoplay, loop, speed, direction, preserveAspectRatio]
+    methods: [play, stop, pause, seek]
+    docs: https://docs.lottielab.com/export-and-hand-off/code-export-platforms/web/javascript-vanilla.md
+  - name: React Lottie Player
+    kind: react-component
+    package: "@lottielab/lottie-player"
+    entry: "@lottielab/lottie-player/react"
+    loaders:
+      - type: npm-import
+        code: "import Lottie from '@lottielab/lottie-player/react';"
+    docs: https://docs.lottielab.com/export-and-hand-off/code-export-platforms/web/react-js.md
+  - name: Livelink CDN embed
+    kind: hosted-embed
+    description: >-
+      Hosted, versioned, optimised Lottie hosting. Each animation gets a CDN
+      embed URL that accepts query parameters to control playback.
+    docs: https://docs.lottielab.com/export-and-hand-off/livelink-cdn.md
+    embed_params_docs: https://docs.lottielab.com/export-and-hand-off/livelink-cdn/customising-embed-links.md
+export_platforms:
+  web: [javascript-vanilla, react-js, angular, vue-js, webflow, framer, wordpress]
+  mobile: [ios, android, react-native]
