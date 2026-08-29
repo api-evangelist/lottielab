@@ -13,6 +13,17 @@ description: >-
   not expose a REST API; its developer surface is the client-side player SDK
   and CDN embed rather than server-side endpoints.
 url: https://raw.githubusercontent.com/api-evangelist/lottielab/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
